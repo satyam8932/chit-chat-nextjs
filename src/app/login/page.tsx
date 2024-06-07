@@ -7,7 +7,7 @@ import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { useRouter } from "next/navigation";
 import { Auth } from "../api/apiCall";
 import Link from "next/link";
-
+ 
 const Page = () => {
   const router = useRouter();
   const [isLoading, setisLoading] = useState(false);
